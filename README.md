@@ -66,37 +66,6 @@
 sudo bash vps-monitor-installer.sh
 ```
 
-Tinggal isi **BOT_TOKEN**, **CHAT_ID**, dan **URL website** — sisanya otomatis.
-
-### 🔹 Non-interaktif (1 baris, siap pakai)
-
-```bash
-sudo bash vps-monitor-installer.sh \
-    --token="1234567890:AAExxxxxxxxxxxxxxxxxxxx" \
-    --chat="987654321" \
-    --url="https://domainanda.com"
-```
-
-### 🔹 Via curl (tanpa download file)
-
-```bash
-bash <(curl -sSL https://raw.githubusercontent.com/username/repo/main/vps-monitor-installer.sh) \
-    --token="1234567890:AAExxxxxxxxxxxxxxxxxxxx" \
-    --chat="987654321" \
-    --url="https://domainanda.com"
-```
-
-### 🔹 Custom direktori & timezone
-
-```bash
-sudo bash vps-monitor-installer.sh \
-    --token="xxx" \
-    --chat="yyy" \
-    --url="https://domain.com" \
-    --dir="/opt/monitor-produksi" \
-    --tz="Asia/Jakarta"
-```
-
 ---
 
 ## 📸 Contoh Output
